@@ -5,6 +5,7 @@ import fries from "@/assets/fries.jpg";
 import nuggets from "@/assets/nuggets.jpg";
 import milkshake from "@/assets/milkshake.jpg";
 import simpleBurger from "@/assets/simple-burger.jpg";
+import familyCombo from "@/assets/family-combo.jpg";
 
 const Menu = () => {
   const menuItems = [
@@ -41,7 +42,7 @@ const Menu = () => {
       name: "Combo Família",
       description: "2 hambúrgueres + 2 batatas + 2 refrigerantes",
       price: "R$ 49,90",
-      image: fries
+      image: familyCombo
     },
     {
       id: 6,
