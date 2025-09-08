@@ -4,6 +4,7 @@ import classicBurger from "@/assets/classic-burger.jpg";
 import fries from "@/assets/fries.jpg";
 import nuggets from "@/assets/nuggets.jpg";
 import milkshake from "@/assets/milkshake.jpg";
+import simpleBurger from "@/assets/simple-burger.jpg";
 
 const Menu = () => {
   const menuItems = [
@@ -12,7 +13,7 @@ const Menu = () => {
       name: "Burger Clássico",
       description: "Hambúrguer de carne bovina, queijo cheddar, alface, tomate e molho especial",
       price: "R$ 18,90",
-      image: classicBurger
+      image: simpleBurger
     },
     {
       id: 2,
