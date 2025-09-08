@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import classicBurger from "@/assets/classic-burger.jpg";
 import fries from "@/assets/fries.jpg";
 import nuggets from "@/assets/nuggets.jpg";
+import milkshake from "@/assets/milkshake.jpg";
 
 const Menu = () => {
   const menuItems = [
@@ -46,7 +47,7 @@ const Menu = () => {
       name: "Milkshake",
       description: "Milkshake cremoso de chocolate, baunilha ou morango",
       price: "R$ 14,90",
-      image: nuggets
+      image: milkshake
     }
   ];
 
