@@ -34,7 +34,7 @@ const Menu = () => {
   }, {
     id: 5,
     name: "Combo Casal",
-    description: "2 Hambúrgueres + batata grande + 2 refrigerantes",
+    description: "Dois hambúrgueres + batata grande + dois refrigerantes",
     price: "R$ 49,90",
     image: familyCombo
   }, {
