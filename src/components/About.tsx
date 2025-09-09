@@ -1,12 +1,9 @@
 const About = () => {
-  return (
-    <section id="about" className="py-20 bg-background">
+  return <section id="about" className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Sobre a Burger House
-            </h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Sobre a Casa's Burger</h2>
             <p className="text-lg text-muted-foreground mb-6">
               Há mais de 10 anos servindo os melhores hambúrgueres da cidade. 
               Nossa paixão é criar experiências gastronômicas únicas com 
@@ -61,8 +58,6 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default About;
