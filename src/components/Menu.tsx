@@ -34,7 +34,7 @@ const Menu = () => {
   }, {
     id: 5,
     name: "Combo Família",
-    description: "2 hambúrgueres + 2 batatas + 2 refrigerantes",
+    description: "2 Hambúrgueres + batata grande + 2 refrigerantes",
     price: "R$ 49,90",
     image: familyCombo
   }, {
