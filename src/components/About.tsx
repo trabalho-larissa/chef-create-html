@@ -5,9 +5,8 @@ const About = () => {
           <div>
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Sobre a Casa's Burger</h2>
             <p className="text-lg text-muted-foreground mb-6">
-              Há mais de 10 anos servindo os melhores hambúrgueres da cidade. 
-              Nossa paixão é criar experiências gastronômicas únicas com 
-              ingredientes frescos e de qualidade.
+              Servimos os melhores hambúrgueres da cidade. Nosso objetivo é criar 
+              experiências únicas com ingredientes frescos e de qualidade.
             </p>
             <p className="text-lg text-muted-foreground mb-6">
               Cada hambúrguer é preparado na hora, com carnes selecionadas, 
