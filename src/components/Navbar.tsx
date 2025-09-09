@@ -6,7 +6,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="text-2xl font-bold text-primary-foreground">
-            Casa`s Burger
+            Casa's Burger
           </div>
           <div className="hidden md:flex space-x-8">
             <a href="#home" className="text-primary-foreground hover:text-secondary transition-colors">
