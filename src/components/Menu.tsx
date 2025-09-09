@@ -33,7 +33,7 @@ const Menu = () => {
     image: classicBurger
   }, {
     id: 5,
-    name: "Combo Família",
+    name: "Combo Casal",
     description: "2 Hambúrgueres + batata grande + 2 refrigerantes",
     price: "R$ 49,90",
     image: familyCombo
