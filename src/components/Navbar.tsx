@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { redirectToWhatsApp } from "@/lib/utils";
 
 const Navbar = () => {
   return (
@@ -22,7 +23,11 @@ const Navbar = () => {
               Contato
             </a>
           </div>
-          <Button variant="secondary" className="hidden md:block">
+          <Button 
+            variant="secondary" 
+            className="hidden md:block"
+            onClick={() => redirectToWhatsApp("85988865813")}
+          >
             Fazer Pedido
           </Button>
         </div>

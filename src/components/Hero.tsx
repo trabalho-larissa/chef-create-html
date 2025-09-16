@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { redirectToWhatsApp, scrollToSection } from "@/lib/utils";
 import heroBurger from "@/assets/hero-burger.jpg";
 
 const Hero = () => {
@@ -21,10 +22,19 @@ const Hero = () => {
           Experimente nossos hambúrgueres artesanais!
         </p>
         <div className="space-x-4">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground"
+            onClick={() => scrollToSection("menu")}
+          >
             Ver Cardápio
           </Button>
-          <Button variant="outline" size="lg" className="bg-white/10 border-white text-white hover:bg-white hover:text-primary">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="bg-white/10 border-white text-white hover:bg-white hover:text-primary"
+            onClick={() => redirectToWhatsApp("85988865813")}
+          >
             Fazer Pedido
           </Button>
         </div>

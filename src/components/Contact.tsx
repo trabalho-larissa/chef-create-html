@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import { redirectToWhatsApp, redirectToGoogleMaps } from "@/lib/utils";
 const Contact = () => {
   return <section id="contact" className="py-20 bg-primary">
       <div className="container mx-auto px-4">
@@ -50,10 +51,20 @@ const Contact = () => {
         </div>
         
         <div className="text-center mt-12">
-          <Button variant="secondary" size="lg" className="mr-4">
+          <Button 
+            variant="secondary" 
+            size="lg" 
+            className="mr-4"
+            onClick={() => redirectToWhatsApp("85988865813")}
+          >
             Fazer Pedido WhatsApp
           </Button>
-          <Button variant="outline" size="lg" className="bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+          <Button 
+            variant="outline" 
+            size="lg" 
+            className="bg-primary-foreground/10 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+            onClick={() => redirectToGoogleMaps("Uninassau Aguanambi Fortaleza")}
+          >
             Ver no Mapa
           </Button>
         </div>
