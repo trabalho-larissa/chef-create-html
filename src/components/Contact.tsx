@@ -20,9 +20,9 @@ const Contact = () => {
               <div className="text-3xl mb-4">📍</div>
               <h3 className="text-xl font-bold mb-2">Endereço</h3>
               <p className="text-muted-foreground">
-                Rua das Delícias, 123<br />
-                Centro - São Paulo/SP<br />
-                CEP: 01234-567
+                Av. Aguanambi, 251 - José Bonifacio<br />
+                Fortaleza - CE<br />
+                60055-400
               </p>
             </CardContent>
           </Card>
