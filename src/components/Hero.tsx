@@ -1,13 +1,10 @@
 import { Button } from "@/components/ui/button";
 import heroBurger from "@/assets/hero-burger.jpg";
-
 const Hero = () => {
-  return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroBurger})` }}
-      />
+  return <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroBurger})`
+    }} />
       <div className="absolute inset-0 bg-black/50" />
       
       <div className="relative z-10 text-center px-4 max-w-4xl">
@@ -21,16 +18,10 @@ const Hero = () => {
           Experimente nossos hambúrgueres artesanais!
         </p>
         <div className="space-x-4">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            Ver Cardápio
-          </Button>
-          <Button variant="outline" size="lg" className="bg-white/10 border-white text-white hover:bg-white hover:text-primary">
-            Fazer Pedido
-          </Button>
+          
+          
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
