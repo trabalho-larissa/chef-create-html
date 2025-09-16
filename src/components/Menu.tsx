@@ -65,9 +65,7 @@ const Menu = () => {
                 <p className="text-muted-foreground mb-4">{item.description}</p>
                 <div className="flex justify-between items-center">
                   <span className="text-2xl font-bold text-primary">{item.price}</span>
-                  <Button variant="outline" className="hover:bg-primary hover:text-primary-foreground">
-                    Adicionar
-                  </Button>
+                  
                 </div>
               </CardContent>
             </Card>)}
