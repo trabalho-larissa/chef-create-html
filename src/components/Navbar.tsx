@@ -26,7 +26,7 @@ const Navbar = () => {
           <Button 
             variant="secondary" 
             className="hidden md:block"
-            onClick={() => redirectToWhatsApp("85988865813")}
+            onClick={() => redirectToWhatsApp("558588865813")}
           >
             Fazer Pedido
           </Button>

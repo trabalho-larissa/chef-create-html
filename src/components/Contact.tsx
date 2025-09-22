@@ -30,7 +30,7 @@ const Contact = () => {
             <CardContent className="p-6 text-center">
               <div className="text-3xl mb-4">📱</div>
               <h3 className="text-xl font-bold mb-2">Telefone</h3>
-              <p className="text-muted-foreground mb-2">(85) 98886-5813</p>
+              <p className="text-muted-foreground mb-2">+55 85 8886-5813</p>
               <p className="text-muted-foreground">
                 WhatsApp disponível!
               </p>
@@ -55,7 +55,7 @@ const Contact = () => {
             variant="secondary" 
             size="lg" 
             className="mr-4"
-            onClick={() => redirectToWhatsApp("85988865813")}
+            onClick={() => redirectToWhatsApp("558588865813")}
           >
             Fazer Pedido WhatsApp
           </Button>
